@@ -1,0 +1,14 @@
+---
+version: "2"
+services:
+  homer:
+    image: b4bz/homer
+    container_name: homer
+    volumes:
+      - /home/tcude/docker/homer/data:/www/assets
+    ports:
+      - 8092:8080
+    #environment:
+    #  - UID=1000
+    #  - GID=1000
+    restart: unless-stopped
