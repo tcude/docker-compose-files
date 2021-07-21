@@ -9,6 +9,6 @@ services:
       - 9925:80
     environment:
       DB_TYPE: sqlite
-      TZ: America/Anchorage
+      TZ: America/Chicago
     volumes:
       - ./mealie/data/:/app/data
