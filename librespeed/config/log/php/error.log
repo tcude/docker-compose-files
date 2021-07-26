@@ -1,2 +1,6 @@
 [25-Jul-2021 02:00:00] NOTICE: fpm is running, pid 1624
 [25-Jul-2021 02:00:00] NOTICE: ready to handle connections
+[26-Jul-2021 10:53:06] NOTICE: Terminating ...
+[26-Jul-2021 10:53:06] NOTICE: exiting, bye-bye!
+[26-Jul-2021 10:53:20] NOTICE: fpm is running, pid 322
+[26-Jul-2021 10:53:20] NOTICE: ready to handle connections
