@@ -1,9 +1,7 @@
 # Ignore everything
 *
-db.env
 <<<<<<< HEAD
 =======
-*db.env
 >>>>>>> 4999d8baac38c074f93ce610bd503a86d1ece71f
 # But not these files...
 !.gitignore
