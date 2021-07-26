@@ -1,6 +1,7 @@
 # Ignore everything
 *
-
+db.env
+*db.env
 # But not these files...
 !.gitignore
 !docker-compose.yml
