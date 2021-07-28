@@ -90,18 +90,18 @@ services:
     items:
       - name: "vCenter"
         logo: "assets/tools/sample.png"
-        subtitle: "vCenter"
+        subtitle: "vCenter Appliance"
         tag: "app"
         url: "https://vcenter.tcudelocal.net"
         target: "_blank" # optional html a tag target attribute
       - name: "ESXi - Elmer"
         logo: "assets/tools/sample.png"
-        subtitle: "ESXi - Emer"
+        subtitle: "ESXi Management Page"
         tag: "app"
         url: "https://elmer.tcudelocal.net"
       - name: "ESXi - Daffy"
         logo: "assets/tools/sample.png"
-        subtitle: "ESXi - Emer"
+        subtitle: "ESXi Management Page"
         tag: "app"
         url: "https://daffy.tcudelocal.net"
 
