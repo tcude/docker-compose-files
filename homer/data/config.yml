@@ -134,7 +134,7 @@ services:
     items:
       - name: "Unifi"
         logo: "assets/tools/sample.png"
-        subtitle: "Personal Unii Network"
+        subtitle: "Personal Unifi Network"
         tag: "app"
         url: "https://10.10.0.1/login?redirect=%2F"
         target: "_blank" # optional html a tag target attribute
