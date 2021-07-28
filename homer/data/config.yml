@@ -8,7 +8,7 @@ logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: false #'<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: false 
 
 # Optional theme customization
 theme: default
@@ -66,17 +66,45 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Server Monitoring"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
+      - name: "Elmer - iDrac"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Lights Out Monitoring"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://10.10.30.13/login.html/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+      - name: "Daffy - iLO"
+        logo: "assets/tools/sample.png"
+        subtitle: "Lights Out Monitoring"
         tag: "app"
-        url: "#"
+        url: "https://10.10.0.102/"
+      - name: "Scrutiny"
+        logo: "assets/tools/sample.png"
+        subtitle: "SMART data at a glance"
+        tag: "app"
+        url: "https://10.10.0.102/"
+
+services:
+  - name: "Virtualization"
+    icon: "fas fa-cloud"
+    items:
+      - name: "vCenter"
+        logo: "assets/tools/sample.png"
+        subtitle: "vCenter"
+        tag: "app"
+        url: "https://vcenter.tcudelocal.net"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ESXi - Elmer"
+        logo: "assets/tools/sample.png"
+        subtitle: "ESXi - Emer"
+        tag: "app"
+        url: "https://elmer.tcudelocal.net"
+      - name: "ESXi - Daffy"
+        logo: "assets/tools/sample.png"
+        subtitle: "ESXi - Emer"
+        tag: "app"
+        url: "https://daffy.tcudelocal.net"
+
+
