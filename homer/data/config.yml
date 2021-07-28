@@ -9,6 +9,7 @@ subtitle: "Dashboard"
 
 header: true
 footer: false 
+columns: "4"
 
 # Optional theme customization
 theme: default
@@ -104,7 +105,31 @@ services:
         subtitle: "ESXi Management Page"
         tag: "app"
         url: "https://daffy.tcudelocal.net"
-  - name: "Monitoring and Management"
+  - name: "Media Server"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Plex"
+        logo: "assets/tools/sample.png"
+        subtitle: "Plex Media Server"
+        tag: "app"
+        url: "https://10.10.2.101:32400"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Tautulli"
+        logo: "assets/tools/sample.png"
+        subtitle: "Plex Monitoring and Management"
+        tag: "app"
+        url: "https://10.10.2.101:8181"
+      - name: "Scrutiny"
+        logo: "assets/tools/sample.png"
+        subtitle: "SMART Info at a Glance"
+        tag: "app"
+        url: "10.10.2.101:8080/web/dashboard"
+      - name: "Portainer - svr-plex-01"
+        logo: "assets/tools/sample.png"
+        subtitle: "Portainer instance residing on svr-plex-01"
+        tag: "app"
+        url: "http://10.10.2.101:9000/#!/home"
+  - name: "Management"
     icon: "fas fa-cloud"
     items:
       - name: "Unifi"
@@ -133,30 +158,6 @@ services:
         subtitle: "Portainer instance residing on svr-docker-01"
         tag: "app"
         url: "http://10.10.80.192:9000/#!/home"
-  - name: "Media Server"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Plex"
-        logo: "assets/tools/sample.png"
-        subtitle: "Plex Media Server"
-        tag: "app"
-        url: "https://10.10.2.101:32400"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Tautulli"
-        logo: "assets/tools/sample.png"
-        subtitle: "Plex Monitoring and Management"
-        tag: "app"
-        url: "https://10.10.2.101:8181"
-      - name: "Scrutiny"
-        logo: "assets/tools/sample.png"
-        subtitle: "SMART Info at a Glance"
-        tag: "app"
-        url: "10.10.2.101:8080/web/dashboard"
-      - name: "Portainer - svr-plex-01"
-        logo: "assets/tools/sample.png"
-        subtitle: "Portainer instance residing on svr-plex-01"
-        tag: "app"
-        url: "http://10.10.2.101:9000/#!/home"
 
 
 
