@@ -148,16 +148,20 @@ services:
         subtitle: "DNS and WAF"
         tag: "app"
         url: "https://dash.cloudflare.com/login"
-      - name: "AWS"
-        logo: "assets/tools/sample.png"
-        subtitle: "Personal AWS Instance"
-        tag: "app"
-        url: "https://651740806418.signin.aws.amazon.com/console"
       - name: "Portainer - svr-docker-01"
         logo: "assets/tools/sample.png"
         subtitle: "Portainer instance residing on svr-docker-01"
         tag: "app"
         url: "http://10.10.80.192:9000/#!/home"
+
+  #- name: "Management"
+    #icon: "fas fa-cloud"
+    #items:
+        #- name: "AWS"
+        #logo: "assets/tools/sample.png"
+        #subtitle: "Personal AWS Instance"
+        #tag: "app"
+        #url: "https://651740806418.signin.aws.amazon.com/console"
 
 
 
