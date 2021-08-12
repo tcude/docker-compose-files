@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    lus:
+        ports:
+            - '8333:8080'
+        container_name: pasty
+        environment:
+            - PASTY_AUTODELETE=true
+        image: 'ghcr.io/lus/pasty:latest'
