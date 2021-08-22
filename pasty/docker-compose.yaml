@@ -6,8 +6,4 @@ services:
         container_name: pasty
         environment:
             - PASTY_AUTODELETE=true
-<<<<<<< HEAD
         image: 'ghcr.io/lus/pasty:latest'
-=======
-        image: 'ghcr.io/lus/pasty:latest'
->>>>>>> c62dac038380929e5b606dace9207bc6c624be30
