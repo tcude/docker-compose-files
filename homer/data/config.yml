@@ -154,7 +154,7 @@ services:
         tag: "app"
         url: "https://stats.uptimerobot.com/onVGVcXOB6"
       - name: "Cloudflare"
-        logo: "assets/icons/cloudflare.png"
+        logo: "assets/icons/cf.png"
         subtitle: "DNS and WAF"
         tag: "app"
         url: "https://dash.cloudflare.com/login"
