@@ -153,7 +153,7 @@ services:
         subtitle: "Portainer instance residing on svr-docker-01"
         tag: "app"
         url: "http://10.10.80.192:9000/#!/home"
-    #Need to configure URLs once established
+
   - name: "Media Downloads"
     icon: "fas fa-cloud"
     items:
@@ -168,7 +168,7 @@ services:
           subtitle: "TV"
           tag: "app"
           url: "http://tcude.net"
-        - name: "Radarr"
+      - name: "Radarr"
           logo: "assets/tools/sample.png"
           subtitle: "Movies"
           tag: "app"
