@@ -153,6 +153,26 @@ services:
         subtitle: "Portainer instance residing on svr-docker-01"
         tag: "app"
         url: "http://10.10.80.192:9000/#!/home"
+    - name: "Media Downloads"
+    icon: "fas fa-cloud"
+    items:
+      - name: "NZBGet"
+        logo: "assets/tools/sample.png"
+        subtitle: ""
+        tag: "app"
+        url: "https://"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Sonarr"
+        logo: "assets/tools/sample.png"
+        subtitle: ""
+        tag: "app"
+        url: "http://"
+      - name: "Radarr"
+        logo: "assets/tools/sample.png"
+        subtitle: ""
+        tag: "app"
+        url: "http://"
+
 
   #- name: "Management"
     #icon: "fas fa-cloud"
