@@ -202,7 +202,7 @@ services:
         url: "https://http://10.10.80.192:3000/"
       - name: "Librespeed"
         logo: "assets/icons/librespeed.png"
-        subtitle: "Self-hosted Github Alternative"
+        subtitle: "Self-hosted Internet Speedtest"
         tag: "app"
         url: "https://http://10.10.80.192:8989/"
 
