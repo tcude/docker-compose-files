@@ -154,15 +154,25 @@ services:
         tag: "app"
         url: "http://10.10.80.192:9000/#!/home"
     #Need to configure URLs once established
-  - name: "Management"
+  - name: "Media Downloads"
     icon: "fas fa-cloud"
     items:
-      - name: "Unifi"
+      - name: "NZBGet"
         logo: "assets/tools/sample.png"
-        subtitle: "Personal Unifi Network"
+        subtitle: "Usenet Client"
         tag: "app"
-        url: "https://10.10.0.1/login?redirect=%2F"
+        url: "https://tcude.net"
         target: "_blank" # optional html a tag target attribute
+      - name: "Sonarr"
+          logo: "assets/tools/sample.png"
+          subtitle: "TV"
+          tag: "app"
+          url: "http://tcude.net"
+        - name: "Radarr"
+          logo: "assets/tools/sample.png"
+          subtitle: "Movies"
+          tag: "app"
+          url: "http://tcude.net"
 
 
 
