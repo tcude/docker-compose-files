@@ -162,17 +162,16 @@ services:
         subtitle: "Usenet Client"
         tag: "app"
         url: "https://tcude.net"
-        target: "_blank" # optional html a tag target attribute
       - name: "Sonarr"
-          logo: "assets/tools/sample.png"
-          subtitle: "TV"
-          tag: "app"
-          url: "http://tcude.net"
+        logo: "assets/tools/sample.png"
+        subtitle: "TV"
+        tag: "app"
+        url: "https://tcude.net"
       - name: "Radarr"
-          logo: "assets/tools/sample.png"
-          subtitle: "Movies"
-          tag: "app"
-          url: "http://tcude.net"
+        logo: "assets/tools/sample.png"
+        subtitle: "Movies"
+        tag: "app"
+        url: "https://tcude.net"
 
 
 
