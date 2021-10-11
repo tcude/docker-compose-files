@@ -143,7 +143,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Unifi"
-        logo: "assets/icon/unifi2.png"
+        logo: "assets/icon/unifi3.png"
         subtitle: "Personal Unifi Network"
         tag: "app"
         url: "https://10.10.0.1/login?redirect=%2F"
