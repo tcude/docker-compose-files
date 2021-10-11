@@ -87,7 +87,7 @@ services:
         tag: "Dell R420"
         url: "https://10.10.0.105/login.html"     
       - name: "Scrutiny"
-        logo: "assets/tools/sample.png"
+        logo: "assets/icons/scrutiny.png"
         subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://10.10.0.102/"
