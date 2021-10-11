@@ -159,20 +159,20 @@ services:
   items:
     - name: "NZBGet"
       logo: "assets/tools/sample.png"
-      subtitle: ""
+      subtitle: "Usenet Client"
       tag: "app"
-      url: "https://"
+      url: "https://tcude.net"
       target: "_blank" # optional html a tag target attribute
     - name: "Sonarr"
       logo: "assets/tools/sample.png"
-      subtitle: ""
+      subtitle: "TV"
       tag: "app"
-      url: "http://"
+      url: "http://tcude.net"
     - name: "Radarr"
       logo: "assets/tools/sample.png"
-      subtitle: ""
+      subtitle: "Movies"
       tag: "app"
-      url: "http://"
+      url: "http://tcude.net"
 
 
   #- name: "Management"
