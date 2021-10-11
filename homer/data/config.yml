@@ -129,7 +129,7 @@ services:
         subtitle: "Portainer instance residing on svr-plex-01"
         tag: "app"
         url: "http://10.10.2.101:9000/#!/home"
-  - name: "Management"
+  - name: "Management - TEST"
     icon: "fas fa-cloud"
     items:
       - name: "Unifi"
