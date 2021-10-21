@@ -133,7 +133,7 @@ services:
         logo: "assets/icons/scrutiny.png"
         subtitle: "SMART Info at a Glance"
         tag: "app"
-        url: "10.10.2.101:8080/web/dashboard"
+        url: "https://10.10.2.101:8080/web/dashboard"
       - name: "Portainer - svr-plex-01"
         logo: "assets/icons/portainer.png"
         subtitle: "Portainer instance residing on svr-plex-01"
