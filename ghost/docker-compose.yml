@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    ghost:
+        container_name: ghost_blog
+        ports:
+            - '3001:2368'
+        volumes:
+            - './content:/var/lib/ghost/content'
+        image: 'ghost:alpine'
+        environment:
+          url: https://tcude.net
+        restart: unless-stopped
