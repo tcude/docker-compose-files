@@ -1,6 +1,7 @@
 ---
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
+# Also see https://github.com/NX211/homer-icons for other icons
 
 title: "Tanner's Web Services"
 subtitle: "Dashboard"
@@ -90,7 +91,7 @@ services:
         tag: "app"
         url: "https://taz.tcudelocal.net"
       - name: "Proxmox - Tweety"
-        logo: "assets/icons/vmware.png"
+        logo: "assets/icons/proxmox.png"
         subtitle: "Proxmox Management Page"
         tag: "app"
         url: "https://10.10.10.106:8006"
@@ -109,7 +110,7 @@ services:
         tag: "app"
         url: "https://10.10.80.111:8181"
       - name: "Overseerr"
-        logo: "assets/icons/ombi.png"
+        logo: "assets/icons/overseerr.png"
         subtitle: "Plex Media Request Tool"
         tag: "app"
         url: "https://request.tcudelocal.net"
